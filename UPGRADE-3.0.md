@@ -363,8 +363,6 @@ UPGRADE FROM 2.x to 3.0
    }
    ```
 
- * The `FormTypeInterface::getName()` method was removed.
-
  * Returning type instances from `FormTypeInterface::getParent()` is not
    supported anymore. Return the fully-qualified class name of the parent
    type class instead.
